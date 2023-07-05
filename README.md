@@ -20,6 +20,9 @@ See `requirements.txt` for a list of required packages. The experiments were per
 
 The notebook `inspect.ipynb` loads the weights of the best-performing model from the paper and applies it to a Colon image from the Warwick Stain Separation Benchmark (WSSB) dataset [2]. Reconstructed image, color matrix, concentrations and H&E images are displayed:
 
+### Pretrained model
+
+The pretrained model can be found in [Hugging Face](https://huggingface.co/Franblueee/BCD-Net)
 
 ### Replicating the experiments from the paper
 
