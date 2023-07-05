@@ -26,12 +26,13 @@ The notebook `inspect.ipynb` loads the weights of the best-performing model from
 BCD-Net can be trained and tested using the file `main.py`. Using the `--help` flag will display the list of all available options. To execute the experiments from the paper, you will need to specify the directory of the Camelyon17 dataset [1] and WSSB dataset. The Camelyon17 dataset can be downloaded from the [Camelyon17 website](https://camelyon17.grand-challenge.org/Data/). The configuration used in the paper is specified in the default values in `options.py`. The experiments from the paper can be approximately replicated using the following commands:
 
 ```bash
+weights_dir=/path/to/weights
 camelyon_dir=/path/to/camelyon17
 wssb_dir=/path/to/wssb
 theta_val_array=(0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0)
 for theta in "${theta_val_array[@]}"
 do
-    python code/main.py --mode=train_test --camelyon_data_path=$camelyon_dir --wssb_data_path=$wssb_dir --theta_val=$theta > output.txt 2>&1
+    python code/main.py --mode=train_test --camelyon_data_path=$camelyon_dir --wssb_data_path=$wssb_dir --weights_dir=$weights_dir --theta_val=$theta > output.txt 2>&1
 done
 ```
 
