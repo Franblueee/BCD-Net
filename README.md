@@ -1,5 +1,5 @@
 <h1 align='center'> Deep Bayesian Blind Color Deconvolution of Histological Images <br>(ICIP 2023)<br>
-    [<a href="https://arxiv.org/abs/2005.08926">arXiv</a>] 
+    [<a href="https://ieeexplore.ieee.org/iel7/10221937/10221892/10222193.pdf">pdf</a>] 
 </h1>
 
 
@@ -22,7 +22,7 @@ The notebook `inspect.ipynb` loads the weights of the best-performing model from
 
 ### Pretrained model
 
-The pretrained model can be found in [Hugging Face](https://huggingface.co/Franblueee/BCD-Net)
+The pretrained model can be found in [Hugging Face](https://huggingface.co/Franblueee/BCD-Net).
 
 ### Replicating the experiments from the paper
 
@@ -53,11 +53,12 @@ Please note that the Camelyon17 dataset was first preprocessed to divide the sli
 If you find this code useful, please consider citing our paper:
 
 ```bibtex
-@article{,
-    title={{D}eep {B}ayesian {B}lind {C}olor {D}econvolution of {H}istological {I}mages},
-    author={Shuowen Yang and Fernando Pérez-Bueno and Francisco M. Castro-Macías and Rafael Molina and Aggelos K. Katsaggelos},
-    archivePrefix={arXiv},
-    primaryClass={stat.ML},
-    year={2023}
+@inproceedings{yang2023deep,
+  title={Deep Bayesian Blind Color Deconvolution of Histological Images},
+  author={Yang, Shuowen and P{\'e}rez-Bueno, Fernando and Castro-Mac{\'\i}as, Francisco M and Molina, Rafael and Katsaggelos, Aggelos K},
+  booktitle={2023 IEEE International Conference on Image Processing (ICIP)},
+  pages={710--714},
+  year={2023},
+  organization={IEEE}
 }
 ```
