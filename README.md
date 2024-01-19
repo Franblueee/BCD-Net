@@ -1,7 +1,10 @@
-<h1 align='center'> Deep Bayesian Blind Color Deconvolution of Histological Images <br>(ICIP 2023)<br>
-    [<a href="https://ieeexplore.ieee.org/iel7/10221937/10221892/10222193.pdf">pdf</a>] 
+<h1 align='center'>
+    Deep Bayesian Blind Color Deconvolution of Histological Images [<a href="https://ieeexplore.ieee.org/document/10222193">pdf</a>]<br>
+    BCD-net: Stain separation of histological images using deep variational Bayesian blind color deconvolution [<a href="https://www.sciencedirect.com/science/article/pii/S105120042300413X?via%3Dihub">pdf</a>]
 </h1>
 
+<h1 align='center'>
+</h1>
 
 <p align="center">
 <img align="middle" src="./img/BCD_net_reduced_ICIP_lateral.png" width="1000" />
@@ -50,15 +53,27 @@ Please note that the Camelyon17 dataset was first preprocessed to divide the sli
 
 ### Citation
 
-If you find this code useful, please consider citing our paper:
+If you find this code useful, please consider citing our papers:
 
 ```bibtex
 @inproceedings{yang2023deep,
-  title={Deep Bayesian Blind Color Deconvolution of Histological Images},
-  author={Yang, Shuowen and P{\'e}rez-Bueno, Fernando and Castro-Mac{\'\i}as, Francisco M and Molina, Rafael and Katsaggelos, Aggelos K},
-  booktitle={2023 IEEE International Conference on Image Processing (ICIP)},
-  pages={710--714},
+  author={Yang, Shuowen and Pérez-Bueno, Fernando and Castro-Macías, Francisco M. and Molina, Rafael and Katsaggelos, Aggelos K.},
+  booktitle={2023 IEEE International Conference on Image Processing (ICIP)}, 
+  title={Deep Bayesian Blind Color Deconvolution of Histological Images}, 
   year={2023},
-  organization={IEEE}
+  volume={},
+  number={},
+  pages={710-714},
+  doi={10.1109/ICIP49359.2023.10222193}
+}
+
+@article{yang2024bcdnet,
+title = {BCD-net: Stain separation of histological images using deep variational Bayesian blind color deconvolution},
+journal = {Digital Signal Processing},
+volume = {145},
+pages = {104318},
+year = {2024},
+issn = {1051-2004},
+doi = {https://doi.org/10.1016/j.dsp.2023.104318},
 }
 ```
